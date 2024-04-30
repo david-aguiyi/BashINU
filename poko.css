@@ -848,11 +848,11 @@ input {
 	background-color: rgba(0, 0, 0, 0);
 	border: 2px solid #32302a;
 	outline: none;
-	width: 800px;
 	text-align: center;
 	border-radius: 20px;
 	background-color: white;
 	padding-block: 0.5em;
+	padding-inline: 1rem;
 }
 .swap {
 	font-weight: 900;
