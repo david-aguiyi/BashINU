@@ -782,6 +782,9 @@ button.buy {
 	margin-bottom: 2rem;
 }
 
+.email{
+	padding-inline: 20px
+}
 .email h1 {
 	font-size: 3rem;
 }
