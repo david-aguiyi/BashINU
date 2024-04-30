@@ -26,7 +26,7 @@ a {
 }
 
 body {
-	background: #2736F7;
+	background: #2736f7;
 	margin: 0;
 	overflow-x: hidden;
 	width: 100%;
@@ -416,7 +416,7 @@ img#comm {
 	/* padding-bottom: 0.2rem; */
 	/* line-height: 2em; */
 	font-size: 4em;
-	color: rgb(34, 62, 145);
+	color: #000000;
 	margin-top: 5rem;
 	word-spacing: 10px;
 	display: flex;
@@ -488,7 +488,7 @@ img#comm {
 	margin-top: -16px;
 }
 .poko button {
-	border-radius: 30px;
+	border-radius: 29px;
 	margin-top: 1em;
 	color: rgb(255, 255, 255);
 	width: 230px;
@@ -503,18 +503,17 @@ img#comm {
 }
 
 input::selection {
-  background: none;
+	background: none;
 }
 input::-moz-selection {
-  background: none;
+	background: none;
 }
 input::-webkit-selection {
-  background: none;
+	background: none;
 }
 input::-ms-selection {
-  background: none;
+	background: none;
 }
-
 
 .smart-button {
 	display: flex;
@@ -537,12 +536,13 @@ input::-ms-selection {
 	cursor: pointer;
 	color: white;
 }
-.contract-cont input{
+.contract-cont input {
 	margin-left: 0.5rem;
 }
 
-.contract-cont p{
+.contract-cont p {
 	font-weight: 700;
+	color: white;
 	font-size: 1.4rem;
 	margin-left: -0.5rem;
 }
@@ -625,6 +625,8 @@ input::-ms-selection {
 	/* display: flex; */
 	text-align: center;
 	font-family: Space;
+	font-weight: 700;
+	color: white;
 	font-size: 3rem;
 }
 .card-body.p-4 {
@@ -842,7 +844,7 @@ button.buy {
 }
 
 .ca {
-	font-family: 'snart';
+	font-family: "snart";
 	color: white;
 	margin-top: 1rem;
 	text-align: center;
@@ -870,7 +872,7 @@ input {
 	margin-top: 0.5rem;
 	font-weight: 900;
 	font-size: clamp(1.2rem, 8vw - 2rem, 3rem);
-	font-family: 'snart';
+	font-family: "snart";
 }
 
 .section-5 {
@@ -902,8 +904,8 @@ input {
 	margin-top: 100px;
 }
 .sect-cont {
-	background-color: #00b7ff;
-	border: 2px solid #f1c40f;
+	background-color: #ffffff;
+	border: 2px solid #2736f7;
 	padding: 20px;
 	margin: 30px;
 	box-shadow: rgba(5, 5, 5, 0.2) 0px 11px 15px 0px,
@@ -1147,7 +1149,7 @@ footer p {
 }
 
 .section-3 {
-	background-color: #2736F7;
+	background-color: #2736f7;
 	position: relative;
 	margin-top: 8rem;
 	margin-bottom: 5rem;
@@ -1181,7 +1183,7 @@ img.right-img {
 	.section-12 {
 		display: flex;
 		justify-content: center;
-		background-color: #2736F7;
+		background-color: #2736f7;
 	}
 	.whole {
 		background-color: #000000;
@@ -1351,7 +1353,7 @@ img.right-img {
 
 	.section-3 {
 		display: flex;
-		background-color: #2736F7;
+		background-color: #2736f7;
 		flex-direction: row-reverse;
 		padding-inline: 20px;
 		align-items: center;
@@ -1372,7 +1374,7 @@ img.right-img {
 	img.commerce {
 		width: auto;
 		margin-right: 2em;
-		width: 200px;
+		width: 250px;
 		max-width: 659px;
 	}
 
@@ -1432,6 +1434,11 @@ img.right-img {
 		width: 400px;
 	}
 
+	.contract-cont p {
+		font-weight: 700;
+		color: white;
+		font-size: 2.5rem;
+	}
 	.fcard3,
 	.fcard {
 		width: 400px;
@@ -1487,7 +1494,7 @@ img.right-img {
 		font-family: snart;
 	}
 	.sect-cont {
-		background-color: #00b7ff;
+		background-color: #ffffff;
 		border: 2px solid rgb(0, 0, 0);
 		padding: 40px;
 		margin: 30px;
