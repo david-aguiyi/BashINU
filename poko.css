@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 * {
 	color: rgb(0, 0, 0);
@@ -8,18 +8,8 @@
 	font-family: inherit;
 }
 
-@font-face {
-	font-family: Space;
-	src: url(SnackerComic_PerosnalUseOnly.ttf);
-}
-
-@font-face {
-	font-family: snart;
-	src: url(buycat-e99on.otf);
-}
-
 :root {
-	--font-family: Space;
+	--font-family: "Nunito", sans-serif;
 }
 a {
 	text-decoration: none;
@@ -134,11 +124,6 @@ button {
 .main-button button {
 	border-radius: 12px;
 	margin-top: 4rem;
-}
-
-.snart img {
-	width: 100%;
-	text-align: center;
 }
 
 .center p {
@@ -257,7 +242,7 @@ main {
 
 .main-text span {
 	font-size: clamp(1rem, 8vw - 2rem, 3rem);
-	font-family: snart;
+	font-family: "Nunito", sans-serif;
 }
 pre {
 	font-size: 0.9rem;
@@ -430,7 +415,7 @@ img#comm {
 	padding-top: 1em;
 	width: auto;
 	color: rgb(255, 255, 255);
-	font-family: snart;
+	font-family: "Nunito", sans-serif;
 	display: flex;
 	max-width: 650px;
 	align-items: center;
@@ -479,7 +464,7 @@ img#comm {
 .check ul li p {
 	color: white;
 	margin-top: 5px;
-	font-family: snart;
+	font-family: "Nunito", sans-serif;
 	font-weight: 700;
 	word-spacing: 3px;
 }
@@ -491,8 +476,8 @@ img#comm {
 	border-radius: 29px;
 	margin-top: 1em;
 	color: rgb(255, 255, 255);
-	width: 230px;
-	height: 60px;
+	width: 320px;
+	height: 70px;
 	font-size: 2rem;
 	display: flex;
 	align-items: center;
@@ -577,7 +562,7 @@ input::-ms-selection {
 
 /* The actual timeline (the vertical ruler) */
 .container {
-	font-family: snart;
+	font-family: "Nunito", sans-serif;
 }
 .main-timeline-4 {
 	position: relative;
@@ -617,16 +602,16 @@ input::-ms-selection {
 	font-size: 2.5rem;
 }
 .card-body p {
-	font-family: Space;
+	font-family: "Nunito", sans-serif;
 	font-size: 2rem;
 }
 
 .container h1 {
 	/* display: flex; */
 	text-align: center;
-	font-family: Space;
 	font-weight: 700;
 	color: white;
+	font-family: "Nunito", sans-serif;
 	font-size: 3rem;
 }
 .card-body.p-4 {
@@ -803,7 +788,7 @@ button.buy {
 
 .email p {
 	font-size: 2rem;
-	font-family: snart;
+	font-family: "Nunito", sans-serif;
 }
 
 .dext h1 {
@@ -844,7 +829,7 @@ button.buy {
 }
 
 .ca {
-	font-family: "snart";
+	font-family: "" Nunito ", sans-serif";
 	color: white;
 	margin-top: 1rem;
 	text-align: center;
@@ -872,7 +857,7 @@ input {
 	margin-top: 0.5rem;
 	font-weight: 900;
 	font-size: clamp(1.2rem, 8vw - 2rem, 3rem);
-	font-family: "snart";
+	font-family: "" Nunito ", sans-serif";
 }
 
 .section-5 {
@@ -920,7 +905,7 @@ input {
 
 footer p {
 	text-align: center;
-	font-family: snart;
+	font-family: "Nunito", sans-serif;
 	margin-bottom: 20px;
 }
 
@@ -1472,10 +1457,6 @@ img.right-img {
 		display: flex;
 		flex-direction: row-reverse;
 	}
-	.snart {
-		width: 100%;
-		margin-left: -20rem;
-	}
 
 	.section-6 {
 		display: flex;
@@ -1491,7 +1472,7 @@ img.right-img {
 	}
 	.main-text span {
 		font-size: clamp(1rem, 8vw - 2rem, 2rem);
-		font-family: snart;
+		font-family: "Nunito", sans-serif;
 	}
 	.sect-cont {
 		background-color: #ffffff;
