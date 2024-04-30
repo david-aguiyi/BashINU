@@ -1349,6 +1349,10 @@ img.right-img {
 	img.hero-p2p {
 		margin-top: 3.5rem;
 	}
+
+	.contract-cont p{
+		font-size: 3rem;
+	}
 	.section-6,
 	.section-7 {
 		display: flex;
