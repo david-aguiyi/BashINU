@@ -856,7 +856,8 @@ input {
 #ca-num {
 	margin-top: 0.5rem;
 	font-weight: 900;
-	font-size: clamp(1.2rem, 8vw - 2rem, 3rem);
+	font-size: 1.3rem;
+	/* font-size: clamp(1.2rem, 8vw - 2rem, 4rem); */
 	font-family: "" Nunito ", sans-serif";
 }
 
